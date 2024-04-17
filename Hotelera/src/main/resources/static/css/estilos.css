@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* Comentario */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    padding: 80px 20px 0;
+    background-color: bisque;
+}
+
+header {
+    position: fixed;
+    background-color: lightcoral;    
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%
+}
+.navbar-nav {
+  white-space: nowrap; 
+}
+
+.navbar-nav .nav-link {
+  padding: 0 15px; 
+}
+.container-fluid {
+  margin-left: 50px; 
+}
+.navbar-brand {
+    font-size: 28px;
+    
+}
+.navbar-nav .nav-link {
+    font-size: 24px; 
+    
+}
+
+
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: white;    
+    top: 80px;
+    left: 0;
+    bottom: 25px;
+    width: 100%
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;        
+    text-align: center;
+    background-color: yellow;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    background-color: red ;
+    color: white;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: blue;
+    color: white
+}
+
+tbody tr:nth-child(even) {
+    background-color: black;
+    color: white
+}
+
+
+
+
